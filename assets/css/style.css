@@ -373,8 +373,7 @@ body {
 	#bio-image{
 	display: block;
     margin: auto;
-    float:left;
-    padding:0 40px;
+    float:none;
 	}
  	
  	p{
@@ -407,6 +406,7 @@ body {
 
  	#mail, #name, #msg{
  		width: 100%;
+ 		line-height: 25px;
  		
  	}
  	label{
@@ -455,13 +455,17 @@ body {
   	width: 100%;
   	}
 
+	header{
+		margin-left: 20px;
+		margin-right: auto;
+	}
 	
 	#main-bio{
     padding:10px;
   	width: 90%;
     float:left;
     margin-left: 20px;
-    margin bottom: 10px;
+    margin-bottom: 10px;
   	}
 
 	#connect-info {
@@ -478,6 +482,7 @@ body {
   		padding-right:10px;
   		width: 250px;
   		height: 250px;
+  		float:left;
 
 
   	}
@@ -493,10 +498,180 @@ body {
  	nav{
  		text-align: right;
  		width: 90%;
+ 		margin: auto;
  		}
 
+/*Contact*/
+	.container2{
+		width: 100%;
+	}
+	#contact{
+	padding:10px;
+  	width: 90%;
+    float:left;
+    margin-left: 20px;
+    margin bottom: 10px;
+  	}
 
 
+/*Portfolio*/
+	.container3{
+		width: 100%;
+	}
+
+	.portfolio{
+
+	padding:10px;
+  	width: 90%;
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 800px;
+   
+
+  	}
+
+  	.port1box1{
+    	position:relative;
+    	top: 15px;
+    	
+
+	}
+	
+	.port2box2{
+    	position:relative;
+		left: 325px;
+		top: -210px;
+		
+
+	}
+	
+
+	.port3box3{
+    	position:relative;
+    	top: -210px;
+    	
+	}
+
+	.port4box4{
+    	position:relative;
+    	left: 325px;
+    	top: -435px;
+    	
+	}
+
+	.port5box5{
+    	position:relative;
+    	top: -435px;
+    	left: 165px;
+    	
+	}
 }
+
+@media screen and (max-width: 640px){
+
+/*Index*/
+	
+	header{
+		width:100%;
+		margin: auto;
+		text-align: center;
+	}
+
+	nav{
+		text-align: center;
+		margin: 0 0;
+	
+		width: 100%;
+		
+		line-height: 50px;
+		vertical-align: middle;
+		padding: 20px 0px 10px 0px;
+
+	}
+	.container{
+  	width: 100%;
+  	}
+
+	#main-bio{
+    padding:10px;
+  	width: 90%;
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  	}
+
+	#connect-info {
+    padding: 10px;
+    width: 90%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+  	}
+
+  	#bio-image{
+  		padding-left: 10px;
+  		padding-right:10px;
+  		width: 250px;
+  		height: 250px;
+  		float: none;
+
+
+  	}
+
+
+	p{
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+		
+	}
+	
+ 
+
+/*Contact*/
+	.container2{
+		width: 100%;
+	}
+	#contact{
+	padding:10px;
+  	width: 90%;
+    float:left;
+    margin-left: 20px;
+    margin bottom: 10px;
+  	}
+
+
+/*Portfolio*/
+	.container3{
+		width: 100%;
+	}
+
+	.portfolio{
+		width: 90%;
+		padding-top: 10px;
+		height: 95%;
+		padding-bottom: 40px;
+
+
+	}
+
+
+		
+	.port1box1,.port2box2,.port3box3,.port4box4,.port5box5{
+    	position:relative;
+    	top: 0px;
+    	left: 90px;
+    	margin: 0 auto;
+
+	}
+
+	
+	
+	
+
+
+	}
 
 
