@@ -86,8 +86,8 @@ a:active {
 	margin: 0 auto;
 
 }
-#main-bio, #connect-info, #bio-image
-	{
+#main-bio, #connect-info{
+	
 	float: left;
 	background-color: rgba(214, 227, 247, 0.5);
 		}
@@ -97,6 +97,7 @@ a:active {
 	{
 	width: 200px;
 	padding: 7px 7px 5px 6px;
+	float: left;
 
 	}
 
@@ -168,7 +169,7 @@ form{
 
 	width: 600px;
         float:left;
-        padding: 15px 25px;	
+    	
       }
 
 
@@ -296,8 +297,206 @@ form{
 	}
 
 	
+/*Media Queries
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+
+body {
+  /* Typography 
+  font-size: 18px;
+  line-height: 27px;
+
+}
+
+/*--
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+
+.wrapper {
+  /* Box-model 
+  width: 1024px;
+
+  /* Positioning 
+  margin: 40px auto;
+ }
+/*
+#main-content,
+#sidebar {
+  /* Box-model 
+  width: 500px;
+  padding: 30px;
+	}
+
+#main-content {
+  /* Positioning 
+  float: left;
+
+  /* Visual 
+  background: #fff;
+	}
+
+#sidebar {
+  /* Positioning 
+  float: right;
+
+  /* Visual 
+  background: #eee;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.*/
+
+
+@media screen and (max-width: 980px){
+  
+/*Index*/
+  .container{
+  	width: 100%;
+  	}
+
+	
+	#main-bio{
+    padding:10px;
+    width: 40%;
+    margin-left: 70px;
+  	}
+
+	
+
+	#bio-image{
+	display: block;
+    margin: auto;
+    float:left;
+    padding:0 40px;
+	}
+ 	
+ 	p{
+ 	float: left;
+ 	}
 
 
 
+ /*Contact*/
+	
+	.container2{
+		width:100%;
+
+	}
+
+	#contact {
+
+		
+		width: 40%;
+		margin-left: 60px;
+
+
+ 	}
+
+ 	form{
+ 		width: 100%;
+ 		
+ 	
+ 		}
+
+ 	#mail, #name, #msg{
+ 		width: 100%;
+ 		
+ 	}
+ 	label{
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+
+ 	.button{
+ 		
+ 		padding-left: 0px;
+ 	}
+
+/*Portfolio*/
+
+	.container3{
+		width: 100%;
+	}
+
+	.portfolio{
+		width: 40%;
+		padding-top: 10px;
+		height: 95%;
+		padding-bottom: 40px;
+
+
+	}
+
+	hr{
+		margin-bottom: 20px;
+	}
+		
+	.port1box1,.port2box2,.port3box3,.port4box4,.port5box5{
+    	position:relative;
+    	top: 0px;
+    	left: 0px;
+    	margin: 0 auto;
+	}
+
+
+}
+
+@media screen and (max-width: 768px){
+
+/*Index*/
+  .container{
+  	width: 100%;
+  	}
+
+	
+	#main-bio{
+    padding:10px;
+  	width: 90%;
+    float:left;
+    margin-left: 20px;
+    margin bottom: 10px;
+  	}
+
+	#connect-info {
+    padding: 10px;
+    width: 90%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+  	}
+
+  	#bio-image{
+  		padding-left: 10px;
+  		padding-right:10px;
+  		width: 250px;
+  		height: 250px;
+
+
+  	}
+
+
+	p{
+		float: none;
+		margin-top: 10px;
+		margin-left: 20px;
+		
+	}
+	
+ 	nav{
+ 		text-align: right;
+ 		width: 90%;
+ 		}
+
+
+
+}
 
 
